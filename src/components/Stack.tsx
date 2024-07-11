@@ -12,59 +12,64 @@ const Stack = () => {
             <ScrollArea>
                 <div className="flex gap-4">
                     <StackCard
-                        imgSrc="/logos/js.png"
+                        imgSrc="/logos/js.svg"
                         imgAlt="Javascript"
                         title="JavaScript"
                     />
                     <StackCard
-                        imgSrc="/logos/css.png"
+                        imgSrc="/logos/css.svg"
                         imgAlt="CSS"
                         title="CSS"
                     />
                     <StackCard
-                        imgSrc="/logos/html.png"
+                        imgSrc="/logos/html.svg"
                         imgAlt="HTML"
                         title="HTML"
                     />
                     <StackCard
-                        imgSrc="/logos/react.png"
+                        imgSrc="/logos/react.svg"
                         imgAlt="React"
                         title="React"
                     />
                     <StackCard
-                        imgSrc="/logos/figma.png"
+                        imgSrc="/logos/figma.svg"
                         imgAlt="Figma"
                         title="Figma"
                     />
                     <StackCard
-                        imgSrc="/logos/docker.png"
+                        imgSrc="/logos/docker.svg"
                         imgAlt="Docker"
                         title="Docker"
                     />
                     <StackCard
-                        imgSrc="/logos/js.png"
-                        imgAlt="Javascript"
-                        title="JavaScript"
+                        imgSrc="/logos/nextjs.png"
+                        imgAlt="NextJs"
+                        title="NextJs"
+                    />
+                    <StackCard
+                        imgSrc="/logos/vercel.png"
+                        imgAlt="Vercel"
+                        title="Vercel"
+                    />
+                    <StackCard
+                        imgSrc="/logos/framer.png"
+                        imgAlt="Framer"
+                        title="Framer"
+                    />
+                    <StackCard
+                        imgSrc="/logos/nextauth.svg"
+                        imgAlt="NextAuth"
+                        title="NextAuth"
                     />
                     <StackCard
                         imgSrc="/logos/js.png"
                         imgAlt="Javascript"
-                        title="JavaScript"
+                        title="Tailwind CSS"
                     />
                     <StackCard
                         imgSrc="/logos/js.png"
                         imgAlt="Javascript"
-                        title="JavaScript"
-                    />
-                    <StackCard
-                        imgSrc="/logos/js.png"
-                        imgAlt="Javascript"
-                        title="JavaScript"
-                    />
-                    <StackCard
-                        imgSrc="/logos/js.png"
-                        imgAlt="Javascript"
-                        title="JavaScript"
+                        title="Git"
                     />
                 </div>
                 <ScrollBar orientation="horizontal" className="hidden"/>

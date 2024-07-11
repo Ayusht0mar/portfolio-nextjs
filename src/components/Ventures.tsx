@@ -1,5 +1,5 @@
 import SectionHeading from "./SectionHeading";
-import { ScrollArea } from "./ui/scroll-area";
+import { ScrollArea, ScrollBar } from "./ui/scroll-area";
 import VenturesCard from "./VentureCard";
 
 const Ventures = () => {
@@ -10,7 +10,30 @@ const Ventures = () => {
                 subLabel="Take a look at what i do on side "
             />
             <ScrollArea>
-                <VenturesCard/>
+                <div className="flex gap-4">
+                    <VenturesCard
+                    imgSrc = "/text.jpeg"
+                    imgAlt = "I"
+                    title = "Inconcise"
+                    description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
+                    ventureLink = "/"
+                    />
+                    <VenturesCard
+                    imgSrc = "/text.jpeg"
+                    imgAlt = "I"
+                    title = "Digital Marketplace"
+                    description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
+                    ventureLink = "/"
+                    />
+                    <VenturesCard
+                    imgSrc = "/text.jpeg"
+                    imgAlt = "I"
+                    title = "Shop"
+                    description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
+                    ventureLink = "/"
+                    />
+                </div>
+                <ScrollBar orientation="horizontal" className="hidden"/>
             </ScrollArea>
         </div>
      );

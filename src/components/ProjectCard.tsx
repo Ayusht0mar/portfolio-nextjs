@@ -9,6 +9,9 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { IoCodeSlashOutline } from "react-icons/io5";
+import { CiGlobe } from "react-icons/ci";
+
   
 interface  ProjectCardProps {
     imgSrc: string;
@@ -18,6 +21,10 @@ interface  ProjectCardProps {
     githubLink: string;
     projectLink: string;
     tech1: string;
+    tech2: string;
+    tech3: string;
+    tech4: string;
+    tech5: string;
 }
 const ProjectCard: React.FC<ProjectCardProps> = ({
     imgSrc,
@@ -26,11 +33,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     description,
     githubLink,
     projectLink,
-    tech1
+    tech1,
+    tech2,
+    tech3,
+    tech4,
+    tech5,
 }) => {
     return ( 
         <div>
-            <Card className="w-[420px] p-4">
+            <Card className="w-[420px] p-4 flex flex-col gap-6">
                 <Image
                     src={imgSrc}
                     alt={imgAlt}
@@ -44,10 +55,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 </CardHeader>
                 
                 <CardContent className="flex justify-between">
-                    <ul className="flex">
+                    <ul className="flex gap-1">
                         <li>
                             <Image
-                                className="m-auto"
+                                className="
+                                m-auto
+                                p-1
+                                border
+                                rounded-full
+                                border-muted-foreground
+                                "
                                 src={tech1}
                                 alt=""
                                 width="32"
@@ -56,8 +73,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                         </li>
                         <li>
                             <Image
-                                className="m-auto"
-                                src={tech1}
+                                className="
+                                m-auto
+                                p-1
+                                border
+                                rounded-full
+                                border-muted-foreground
+                                "
+                                src={tech2}
                                 alt=""
                                 width="32"
                                 height="32"
@@ -65,8 +88,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                         </li>
                         <li>
                             <Image
-                                className="m-auto"
-                                src={tech1}
+                                className="
+                                m-auto
+                                p-1
+                                border
+                                rounded-full
+                                border-muted-foreground
+                                "
+                                src={tech3}
                                 alt=""
                                 width="32"
                                 height="32"
@@ -74,33 +103,60 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                         </li>
                         <li>
                             <Image
-                                className="m-auto"
-                                src={tech1}
+                                className="
+                                m-auto
+                                p-1
+                                border
+                                rounded-full
+                                border-muted-foreground
+                                "
+                                src={tech4}
+                                alt=""
+                                width="32"
+                                height="32"
+                            />
+                        </li>
+                        <li>
+                            <Image
+                                className="
+                                m-auto
+                                p-1
+                                border
+                                rounded-full
+                                border-muted-foreground
+                                "
+                                src={tech5}
                                 alt=""
                                 width="32"
                                 height="32"
                             />
                         </li>
                     </ul>
-                    <div className="flex">
+                    <div className="flex gap-2">
                         <Link
                             href={githubLink}>
-                            <Image
-                                className="m-auto"
-                                src={tech1}
-                                alt=""
-                                width="32"
-                                height="32"
+                            <IoCodeSlashOutline
+                            size="32"
+                            className="
+                            text-muted-foreground
+                            p-1
+                            border
+                            rounded-full
+                            border-muted-foreground
+                            "
                             />
                         </Link>
                         <Link
                             href={projectLink}>
-                            <Image
-                                className="m-auto"
-                                src={tech1}
-                                alt=""
-                                width="32"
-                                height="32"
+                            <CiGlobe 
+                            size="32"
+                            className="
+                            text-muted-foreground
+                            p-1
+                            border
+                            rounded-full
+                            border-muted-foreground
+                            "
                             />
                         </Link>
                     </div>

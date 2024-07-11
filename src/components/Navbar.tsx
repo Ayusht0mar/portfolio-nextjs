@@ -30,6 +30,10 @@ const Navbar = () => {
                     link="/lab"
                     />
                 <NavItem 
+                    label="Shop"
+                    link="/resume"
+                    />
+                <NavItem 
                     label="Resume"
                     link="/resume"
                     />

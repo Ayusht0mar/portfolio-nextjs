@@ -25,8 +25,8 @@ const Projects = () => {
                     <TabsTrigger value="productDesign">Product Design</TabsTrigger>
                 </TabsList>
                     <TabsContent value="all">
-                        <ScrollArea>
-                            <div className="flex space-x-4 ">
+                        <ScrollArea >
+                            <div className="flex space-x-4 overflow-visible">
                                 <ProjectCard
                                     imgSrc = "/text.jpeg"
                                     imgAlt = "I"
@@ -34,34 +34,50 @@ const Projects = () => {
                                     description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
                                     githubLink = "/"
                                     projectLink = "/"
-                                    tech1="/logos/css.png"
+                                    tech1="/logos/css.svg"
+                                    tech2="/logos/html.svg"
+                                    tech3="/logos/js.svg"
+                                    tech4="/logos/react.svg"
+                                    tech5="/logos/nextauth.svg"
                                     />
                                 <ProjectCard
-                                    imgSrc = ""
-                                    imgAlt = ""
-                                    title = ""
-                                    description = ""
-                                    githubLink = ""
-                                    projectLink = ""
-                                    tech1="/logos/css.png"
+                                    imgSrc = "/text.jpeg"
+                                    imgAlt = "I"
+                                    title = "Inconcise"
+                                    description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
+                                    githubLink = "/"
+                                    projectLink = "/"
+                                    tech1="/logos/css.svg"
+                                    tech2="/logos/html.svg"
+                                    tech3="/logos/js.svg"
+                                    tech4="/logos/react.svg"
+                                    tech5="/logos/nextauth.svg"
                                     />
                                 <ProjectCard
-                                    imgSrc = ""
-                                    imgAlt = ""
-                                    title = ""
-                                    description = ""
-                                    githubLink = ""
-                                    projectLink = ""
-                                    tech1="/logos/css.png"
+                                    imgSrc = "/text.jpeg"
+                                    imgAlt = "I"
+                                    title = "Inconcise"
+                                    description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
+                                    githubLink = "/"
+                                    projectLink = "/"
+                                    tech1="/logos/css.svg"
+                                    tech2="/logos/html.svg"
+                                    tech3="/logos/js.svg"
+                                    tech4="/logos/react.svg"
+                                    tech5="/logos/nextauth.svg"
                                     />
                                 <ProjectCard
-                                    imgSrc = ""
-                                    imgAlt = ""
-                                    title = ""
-                                    description = ""
-                                    githubLink = ""
-                                    projectLink = ""
-                                    tech1="/logos/css.png"
+                                    imgSrc = "/text.jpeg"
+                                    imgAlt = "I"
+                                    title = "Inconcise"
+                                    description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
+                                    githubLink = "/"
+                                    projectLink = "/"
+                                    tech1="/logos/css.svg"
+                                    tech2="/logos/html.svg"
+                                    tech3="/logos/js.svg"
+                                    tech4="/logos/react.svg"
+                                    tech5="/logos/nextauth.svg"
                                     />
                                 
                             </div>
