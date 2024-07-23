@@ -47,7 +47,7 @@ const HeroArea = () => {
                     variant="outline"
                 >
                     <Link
-                        href="/"
+                        href="https://read.cv/ayushtomar"
                     >
                         View resume
                     </Link>

@@ -31,11 +31,11 @@ const Navbar = () => {
                     />
                 <NavItem 
                     label="Shop"
-                    link="/resume"
+                    link="/shop"
                     />
                 <NavItem 
                     label="Resume"
-                    link="/resume"
+                    link="https://read.cv/ayushtomar"
                     />
         </div>
      );

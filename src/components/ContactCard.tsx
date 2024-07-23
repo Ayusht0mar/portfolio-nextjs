@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { SlSocialGithub, SlSocialInstagram, SlSocialLinkedin } from "react-icons/sl";
 import { PiCopyright } from "react-icons/pi";
+import CopyToClipboardComponent from "./CopyToClipboard";
 
 const ContactCard = () => {
 
@@ -29,17 +30,8 @@ const ContactCard = () => {
                         Send a message
                      </Link>
                 </Button>
-                <Button 
-                    variant="outline"
-                    className="
-                    bg-white"
-                >
-                    <Link
-                        href="/"
-                    >
-                        Copy email
-                    </Link>
-                </Button>
+                <CopyToClipboardComponent textToCopy="hi@ayushtomar.in" />
+                
                 </CardContent>
             </Card>
             <Card className="flex justify-between m-auto py-4 px-10 items-center">
