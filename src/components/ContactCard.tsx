@@ -2,8 +2,12 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { SlSocialGithub, SlSocialInstagram, SlSocialLinkedin } from "react-icons/sl";
+import { PiCopyright } from "react-icons/pi";
 
 const ContactCard = () => {
+
+    const d = new Date();
+    let year = d.getFullYear();
     return ( 
         <div>
             <Card className="justify-center m-auto pt-20 pb-10 mb-5">
@@ -19,7 +23,7 @@ const ContactCard = () => {
                 ">
                 <Button>
                     <Link
-                        href="#projects"
+                        href="mailto: hi@ayushtomar.in"
                         className="flex items-center gap-2 text-base"
                      >
                         Send a message
@@ -38,24 +42,24 @@ const ContactCard = () => {
                 </Button>
                 </CardContent>
             </Card>
-            <Card className="flex justify-between m-auto py-8 px-10 items-center">
-            <CardHeader className="w-full">
+            <Card className="flex justify-between m-auto py-4 px-10 items-center">
+                <CardHeader className="w-full">
                     <CardTitle>Ayush Tomar</CardTitle>
                     <CardDescription className="w-96">Web Developer and Product Designer</CardDescription>
                 </CardHeader>
                 <div className="flex gap-4">
                     <Link
-                        href="/"
+                        href="https://github.com/Ayusht0mar"
                     >
                         <SlSocialGithub size={24}/>
                     </Link>
                     <Link
-                        href="/"
+                        href="https://www.instagram.com/ayusht0mar"
                     >
                         <SlSocialInstagram size={24}/>
                     </Link>
                     <Link
-                        href="/"
+                        href="https://www.linkedin.com/in/ayusht0mar/"
                     >
                         <SlSocialLinkedin size={24}/>
                     </Link>
@@ -63,30 +67,14 @@ const ContactCard = () => {
                 <CardContent 
                 className="
                 flex
-                gap-4
                 w-full
                 justify-end
+                items-center
+                gap-1
                 ">
-                <Button>
-                    <Link
-                        href="#projects"
-                        className="flex items-center gap-2 text-base"
-                     >
-                        Send a message
-                     </Link>
-                </Button>
-                <Button 
-                    variant="outline"
-                    className="
-                    bg-white"
-
-                >
-                    <Link
-                        href="/"
-                    >
-                        Copy email
-                    </Link>
-                </Button>
+                <PiCopyright />
+                {year}
+                <p>Ayush Tomar</p>
                 </CardContent>
             </Card>
         </div>

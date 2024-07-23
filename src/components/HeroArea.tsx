@@ -17,7 +17,12 @@ const HeroArea = () => {
                     and <b className="text-accent">Product Designer.</b>
                 </h1>
                 <p className="w-[440px] text-xl text-muted">
-                    I help business grow by crafting amazing web experiences. If you are looking for a designer and developer that likes to get stuff done, lets talk.
+                    I design and build things on the internet blending creativity and technical expertise to make the users experience better.
+                </p>
+                <p className="w-[440px] text-xl text-muted">
+                    Currently @ <a href="https://satyukt.com/"><b>Satyukt</b></a> 
+                    {/* <br /> */}
+                    {/* Previously @ <a href="https://storyflow.so/"><b>Storyflow</b></a> */}
                 </p>
             </div>
             <div 

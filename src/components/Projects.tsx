@@ -21,7 +21,7 @@ const Projects = () => {
                 <TabsList>
                     <TabsTrigger value="all">All</TabsTrigger>
                     <TabsTrigger value="webDevelopment">Web Development</TabsTrigger>
-                    <TabsTrigger value="appDevelopment">App Development</TabsTrigger>
+                    {/* <TabsTrigger value="appDevelopment">App Development</TabsTrigger> */}
                     <TabsTrigger value="productDesign">Product Design</TabsTrigger>
                 </TabsList>
                     <TabsContent value="all">
@@ -29,7 +29,7 @@ const Projects = () => {
                             <div className="flex space-x-4 overflow-visible">
                                 <ProjectCard
                                     imgSrc = "/text.jpeg"
-                                    imgAlt = "I"
+                                    imgAlt = "Inconcise"
                                     title = "Inconcise"
                                     description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
                                     githubLink = "/"
@@ -42,8 +42,8 @@ const Projects = () => {
                                     />
                                 <ProjectCard
                                     imgSrc = "/text.jpeg"
-                                    imgAlt = "I"
-                                    title = "Inconcise"
+                                    imgAlt = "Airbnb clone"
+                                    title = "Airbnb clone"
                                     description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
                                     githubLink = "/"
                                     projectLink = "/"
@@ -55,8 +55,8 @@ const Projects = () => {
                                     />
                                 <ProjectCard
                                     imgSrc = "/text.jpeg"
-                                    imgAlt = "I"
-                                    title = "Inconcise"
+                                    imgAlt = "No code website builder"
+                                    title = "No code website builder"
                                     description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
                                     githubLink = "/"
                                     projectLink = "/"
@@ -68,8 +68,8 @@ const Projects = () => {
                                     />
                                 <ProjectCard
                                     imgSrc = "/text.jpeg"
-                                    imgAlt = "I"
-                                    title = "Inconcise"
+                                    imgAlt = "Linktree Clone"
+                                    title = "Linktree Clone"
                                     description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
                                     githubLink = "/"
                                     projectLink = "/"
@@ -84,8 +84,12 @@ const Projects = () => {
                             <ScrollBar orientation="horizontal" className="hidden"/>
                         </ScrollArea>
                     </TabsContent>
-                    <TabsContent value="webDevelopment">Web Development</TabsContent>
-                    <TabsContent value="appDevelopment">App Development.</TabsContent>
+                    <TabsContent value="webDevelopment">
+                        Web Development
+                    </TabsContent>
+                    {/* <TabsContent value="appDevelopment">
+                        App Development
+                    </TabsContent> */}
                     <TabsContent value="productDesign">Product Design</TabsContent>
             </Tabs>
 
