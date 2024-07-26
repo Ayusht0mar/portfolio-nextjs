@@ -62,14 +62,14 @@ const Stack = () => {
                         title="NextAuth"
                     />
                     <StackCard
-                        imgSrc="/logos/js.png"
-                        imgAlt="Javascript"
+                        imgSrc="/logos/tailwindcss.svg"
+                        imgAlt="Tailwind CSS"
                         title="Tailwind CSS"
                     />
                     <StackCard
-                        imgSrc="/logos/js.png"
+                        imgSrc="/logos/github.svg"
                         imgAlt="Javascript"
-                        title="Git"
+                        title="GitHub"
                     />
                 </div>
                 <ScrollBar orientation="horizontal" className="hidden"/>

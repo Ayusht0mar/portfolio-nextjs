@@ -5,8 +5,8 @@ const Contact = () => {
     return ( 
         <div className="flex flex-col gap-6">
             <SectionHeading
-                label="Contact"
-                subLabel="Take a look at what i do on side "
+                label="Contact."
+                subLabel="Have a work for me?"
             />
             <ContactCard/>
         </div>

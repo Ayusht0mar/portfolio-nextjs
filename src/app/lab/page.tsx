@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Link from "next/link";
 
 const LabPage = () => {
     return ( 
@@ -7,6 +8,12 @@ const LabPage = () => {
                 <Navbar/>
             </div>
             Lab Page
+            <br />
+            <Link
+            href="/toolkit"
+            >
+                Toolkit
+            </Link>
         </main>
      );
 }

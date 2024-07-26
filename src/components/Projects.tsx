@@ -42,6 +42,19 @@ const Projects = () => {
                                     />
                                 <ProjectCard
                                     imgSrc = "/text.jpeg"
+                                    imgAlt = "Productivity SaaS"
+                                    title = "Productivity SaaS"
+                                    description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
+                                    githubLink = "/"
+                                    projectLink = "/"
+                                    tech1="/logos/css.svg"
+                                    tech2="/logos/html.svg"
+                                    tech3="/logos/js.svg"
+                                    tech4="/logos/react.svg"
+                                    tech5="/logos/nextauth.svg"
+                                    />
+                                <ProjectCard
+                                    imgSrc = "/text.jpeg"
                                     imgAlt = "Airbnb clone"
                                     title = "Airbnb clone"
                                     description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
