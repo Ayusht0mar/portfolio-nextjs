@@ -30,6 +30,8 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
             <div
                 className="
                     text-muted
+                    text-base
+                    md:text-2xl
                 "
             >
                 {subLabel}

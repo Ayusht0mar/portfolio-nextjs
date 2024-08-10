@@ -9,7 +9,7 @@ import Ventures from "@/components/Ventures";
 export default function Home() {
   return (
     <main>
-      <div className=" px-[5vw]">
+      <div className="px-[2vw] md:px-[5vw]">
         <HeroArea />
       </div>
         <div className="flex flex-col gap-20 pt-[12vh] mx-[5vw] overflow-visible pb-6" id="projects">

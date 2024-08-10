@@ -41,7 +41,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
     return ( 
         <div>
-            <Card className=" p-4 flex flex-col gap-6">
+            <Card className="w-[80vw] md:w-[420px] p-4 flex flex-col gap-6">
                 <Image
                     src={imgSrc}
                     alt={imgAlt}

@@ -34,7 +34,7 @@ const ContactCard = () => {
                 
                 </CardContent>
             </Card>
-            <Card className="flex flex-col md:flex-row gap-6 justify-between m-auto py-4 px-10 items-center">
+            <Card className="flex flex-col md:flex-row gap-6 justify-between m-auto py-4 px-4 md:px-10 md:items-center">
                 <CardHeader className="w-full">
                     <CardTitle>Ayush Tomar</CardTitle>
                     <CardDescription className="w-96">Web Developer and Product Designer</CardDescription>
