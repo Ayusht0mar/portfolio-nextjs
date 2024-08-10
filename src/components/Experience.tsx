@@ -17,7 +17,7 @@ const Experience = () => {
             />
             <Card className="p-6 overflow-hidden">
                 <Tabs defaultValue="Satyukt" className="flex flex-col md:flex-row gap-6">
-                    <TabsList className="flex justify-start md:flex-col overflow-y-scroll">
+                    <TabsList className="flex justify-start md:flex-col overflow-y-scroll md:overflow-y-clip">
                         <TabsTrigger value="Satyukt" className="bg-white w-full text-base">Satyukt</TabsTrigger>
                         <TabsTrigger value="Storyflow" className="bg-white w-full text-base">Storyflow</TabsTrigger>
                         <TabsTrigger value="Digisell" className="bg-white w-full text-base">Digisell</TabsTrigger>

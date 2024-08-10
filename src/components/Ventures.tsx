@@ -16,7 +16,7 @@ const Ventures = () => {
                     imgAlt = "I"
                     title = "Inconcise"
                     description = "A library that helps you to write code faster by providing boilerplates and components by which you can focus on working on the core functionalities of your website."
-                    ventureLink = "/"
+                    ventureLink = "https://www.inconcise.in/"
                     />
                     {/* <VenturesCard
                     imgSrc = "/text.jpeg"

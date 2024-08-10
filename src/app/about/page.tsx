@@ -3,7 +3,7 @@ import { DragCards } from "@/components/DargCard";
 const AboutPage = () => {
     return ( 
         <main className="h-full">
-            <div className="w-1/2 m-auto py-10">
+            <div className="w-[80vw] md:w-1/2 m-auto py-10">
                 <h1 className="font-bold">Hi there,</h1>
                 <p>
                     I am Ayush Tomar, a Web Developer and a Product Designer who design and code digital products, based in India. With experience of working with teams all around the world. I Currently work as a Web Developer for <a href="">Satyukt</a> prior to which I also worked as a Intern for Storyflow and as a freelacer for Digisell.
