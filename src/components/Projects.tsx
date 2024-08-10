@@ -25,10 +25,10 @@ const Projects = () => {
                     <TabsTrigger value="productDesign">Product Design</TabsTrigger>
                 </TabsList>
                     <TabsContent value="all">
-                        <ScrollArea >
-                            <div className="flex space-x-4 overflow-visible">
+                        <ScrollArea className="overflow-x-visible">
+                            <div className="flex space-x-4">
                                 <ProjectCard
-                                    imgSrc = "/text.jpeg"
+                                    imgSrc = "/inconcisecover.jpg"
                                     imgAlt = "Inconcise"
                                     title = "Inconcise"
                                     description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
@@ -41,9 +41,9 @@ const Projects = () => {
                                     tech5="/logos/nextauth.svg"
                                     />
                                 <ProjectCard
-                                    imgSrc = "/text.jpeg"
-                                    imgAlt = "Productivity SaaS"
-                                    title = "Productivity SaaS"
+                                    imgSrc = "/portfolio1cover.jpg"
+                                    imgAlt = "Clarity"
+                                    title = "Clarity"
                                     description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
                                     githubLink = "/"
                                     projectLink = "/"
@@ -54,7 +54,33 @@ const Projects = () => {
                                     tech5="/logos/nextauth.svg"
                                     />
                                 <ProjectCard
-                                    imgSrc = "/text.jpeg"
+                                    imgSrc = "/portfolio1cover.jpg"
+                                    imgAlt = "Shortlist"
+                                    title = "Shortlist"
+                                    description = "A Job Portal app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
+                                    githubLink = "/"
+                                    projectLink = "/"
+                                    tech1="/logos/css.svg"
+                                    tech2="/logos/html.svg"
+                                    tech3="/logos/js.svg"
+                                    tech4="/logos/react.svg"
+                                    tech5="/logos/nextauth.svg"
+                                    />
+                                <ProjectCard
+                                    imgSrc = "/portfolio1cover.jpg"
+                                    imgAlt = "Portfolio1"
+                                    title = "Portfolio"
+                                    description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
+                                    githubLink = "/"
+                                    projectLink = "/"
+                                    tech1="/logos/css.svg"
+                                    tech2="/logos/html.svg"
+                                    tech3="/logos/js.svg"
+                                    tech4="/logos/react.svg"
+                                    tech5="/logos/nextauth.svg"
+                                    />
+                                <ProjectCard
+                                    imgSrc = "/airbnbcover.jpg"
                                     imgAlt = "Airbnb clone"
                                     title = "Airbnb clone"
                                     description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
@@ -67,7 +93,7 @@ const Projects = () => {
                                     tech5="/logos/nextauth.svg"
                                     />
                                 <ProjectCard
-                                    imgSrc = "/text.jpeg"
+                                    imgSrc = "/reflectcover.jpg"
                                     imgAlt = "No code website builder"
                                     title = "No code website builder"
                                     description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"

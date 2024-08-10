@@ -13,6 +13,8 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
         <div
             className="
                 flex
+                flex-col
+                md:flex-row
                 text-2xl
                 font-medium
                 gap-2

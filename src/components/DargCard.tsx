@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { twMerge } from "tailwind-merge";
 
 interface CardProps {
-  containerRef: RefObject<HTMLDivElement>;
+  containerRef?: RefObject<HTMLDivElement>;
   src: string;
   alt: string;
   top: string;
@@ -88,7 +88,7 @@ const Cards: React.FC = () => {
   );
 };
 
-const Card: React.FC<CardProps> = ({
+export const Card: React.FC<CardProps> = ({
   containerRef,
   src,
   alt,

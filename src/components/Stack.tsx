@@ -17,6 +17,16 @@ const Stack = () => {
                         title="JavaScript"
                     />
                     <StackCard
+                        imgSrc="/logos/typescript.svg"
+                        imgAlt="TypeScript"
+                        title="TypeScript"
+                    />
+                    <StackCard
+                        imgSrc="/logos/js.svg"
+                        imgAlt="Express"
+                        title="Express"
+                    />
+                    <StackCard
                         imgSrc="/logos/css.svg"
                         imgAlt="CSS"
                         title="CSS"
@@ -30,6 +40,11 @@ const Stack = () => {
                         imgSrc="/logos/react.svg"
                         imgAlt="React"
                         title="React"
+                    />
+                    <StackCard
+                        imgSrc="/logos/node_js.svg"
+                        imgAlt="Node.Js"
+                        title="Node.Js"
                     />
                     <StackCard
                         imgSrc="/logos/figma.svg"
@@ -68,7 +83,7 @@ const Stack = () => {
                     />
                     <StackCard
                         imgSrc="/logos/github.svg"
-                        imgAlt="Javascript"
+                        imgAlt="GitHub"
                         title="GitHub"
                     />
                 </div>

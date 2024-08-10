@@ -12,9 +12,16 @@ const Ventures = () => {
             <ScrollArea>
                 <div className="flex gap-4">
                     <VenturesCard
-                    imgSrc = "/text.jpeg"
+                    imgSrc = "/inconcisecover.jpg"
                     imgAlt = "I"
                     title = "Inconcise"
+                    description = "A library that helps you to write code faster by providing boilerplates and components by which you can focus on working on the core functionalities of your website."
+                    ventureLink = "/"
+                    />
+                    {/* <VenturesCard
+                    imgSrc = "/text.jpeg"
+                    imgAlt = "I"
+                    title = "Shop ( Under Work )"
                     description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
                     ventureLink = "/"
                     />
@@ -24,14 +31,7 @@ const Ventures = () => {
                     title = "Digital Marketplace"
                     description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
                     ventureLink = "/"
-                    />
-                    <VenturesCard
-                    imgSrc = "/text.jpeg"
-                    imgAlt = "I"
-                    title = "Shop"
-                    description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
-                    ventureLink = "/"
-                    />
+                    /> */}
                 </div>
                 <ScrollBar orientation="horizontal" className="hidden"/>
             </ScrollArea>

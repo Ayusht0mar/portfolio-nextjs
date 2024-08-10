@@ -29,10 +29,10 @@ const Navbar = () => {
                     label="Lab"
                     link="/lab"
                     />
-                <NavItem 
+                {/* <NavItem 
                     label="Shop"
                     link="/shop"
-                    />
+                    /> */}
                 <NavItem 
                     label="Resume"
                     link="https://read.cv/ayushtomar"

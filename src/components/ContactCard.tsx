@@ -14,7 +14,7 @@ const ContactCard = () => {
             <Card className="justify-center m-auto pt-20 pb-10 mb-5">
             <CardHeader className="text-center pb-5">
                     <CardTitle className="text-4xl">Lets start a project together.</CardTitle>
-                    <CardDescription className="w-96 m-auto">I help business grow by crafting amazing web experiences. If you’re looking for a designer and developer that likes to get stuff done, let talk.</CardDescription>
+                    <CardDescription className="max-w-96 m-auto">I help business grow by crafting amazing web experiences. If you’re looking for a designer and developer that likes to get stuff done, let talk.</CardDescription>
                 </CardHeader>
                 <CardContent 
                 className="
@@ -34,7 +34,7 @@ const ContactCard = () => {
                 
                 </CardContent>
             </Card>
-            <Card className="flex justify-between m-auto py-4 px-10 items-center">
+            <Card className="flex flex-col md:flex-row gap-6 justify-between m-auto py-4 px-10 items-center">
                 <CardHeader className="w-full">
                     <CardTitle>Ayush Tomar</CardTitle>
                     <CardDescription className="w-96">Web Developer and Product Designer</CardDescription>
@@ -60,7 +60,6 @@ const ContactCard = () => {
                 className="
                 flex
                 w-full
-                justify-end
                 items-center
                 gap-1
                 ">
