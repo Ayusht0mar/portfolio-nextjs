@@ -1,10 +1,35 @@
-import Link from "next/link";
+import LabCard from "@/components/LabCard";
 
 const LabPage = () => {
     return ( 
-        <main className="p-6 min-h-screen h-full w-[90vw] md:w-[50vw] m-auto">
-            <p className="text-center text-muted">Creative space for UI experiments, component explorations, and interaction design.</p>
-            <h1 className="text-center text-muted text-5xl mt-6">Currently cooking <a href="">Inconcise</a></h1>
+        <main className="p-6 min-h-screen h-full">
+            <p className="text-center text-muted w-[90vw] md:w-[50vw] m-auto">Creative space for UI experiments, component explorations, and interaction design.</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-fit m-auto mt-6">
+                <LabCard
+                    imgSrc="/inconcisecover.jpg"
+                    imgAlt = "Inconcise"
+                    title = "Inconcise"
+                    href = "/"
+                />
+                <LabCard
+                    imgSrc="/inconcisecover.jpg"
+                    imgAlt = "Inconcise"
+                    title = "Inconcise"
+                    href = "/"
+                />
+                <LabCard
+                    imgSrc="/inconcisecover.jpg"
+                    imgAlt = "Inconcise"
+                    title = "Inconcise"
+                    href = "/"
+                />
+                <LabCard
+                    imgSrc="/inconcisecover.jpg"
+                    imgAlt = "Inconcise"
+                    title = "Inconcise"
+                    href = "/"
+                />
+            </div>
         </main>
      );
 }
