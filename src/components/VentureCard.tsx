@@ -50,7 +50,7 @@ const VenturesCard: React.FC<VenturesCardProps> = ({
                             href={ventureLink}
                             className="flex gap-2 items-center"
                             >
-                            Visit live website
+                            Visit website
                             <RxExternalLink />
                         </Link>
                     </div>
