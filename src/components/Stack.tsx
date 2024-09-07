@@ -22,11 +22,6 @@ const Stack = () => {
                         title="TypeScript"
                     />
                     <StackCard
-                        imgSrc="/logos/js.svg"
-                        imgAlt="Express"
-                        title="Express"
-                    />
-                    <StackCard
                         imgSrc="/logos/css.svg"
                         imgAlt="CSS"
                         title="CSS"
