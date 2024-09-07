@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
-import { SlSocialGithub, SlSocialInstagram, SlSocialLinkedin } from "react-icons/sl";
+import { FaGithub, FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import { PiCopyright } from "react-icons/pi";
 import CopyToClipboardComponent from "./CopyToClipboard";
 
@@ -43,22 +43,28 @@ const ContactCard = () => {
                     <Link
                         href="https://github.com/Ayusht0mar"
                     >
-                        <SlSocialGithub size={24}/>
+                        <FaGithub size={24}/>
                     </Link>
                     <Link
                         href="https://www.instagram.com/ayusht0mar"
                     >
-                        <SlSocialInstagram size={24}/>
+                        <FaInstagram size={24}/>
                     </Link>
                     <Link
                         href="https://www.linkedin.com/in/ayusht0mar/"
                     >
-                        <SlSocialLinkedin size={24}/>
+                        <FaLinkedinIn size={24}/>
+                    </Link>
+                    <Link
+                        href="https://twitter.com/justayushtomar"
+                    >
+                        <FaXTwitter size={24}/>
                     </Link>
                 </div>
                 <CardContent 
                 className="
                 flex
+                md:justify-end
                 w-full
                 items-center
                 gap-1
