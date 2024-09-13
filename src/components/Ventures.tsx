@@ -12,19 +12,20 @@ const Ventures = () => {
             <ScrollArea>
                 <div className="flex gap-4">
                     <VenturesCard
-                    imgSrc = "/inconcisecover.jpg"
+                    imgSrc = "/covers/inconcisecover.png"
                     imgAlt = "I"
                     title = "Inconcise"
                     description = "A library that helps you to write code faster by providing boilerplates and components by which you can focus on working on the core functionalities of your website."
                     ventureLink = "https://www.inconcise.in/"
                     />
                     {/* <VenturesCard
-                    imgSrc = "/text.jpeg"
+                    imgSrc = "/dococover.png"
                     imgAlt = "I"
-                    title = "Shop ( Under Work )"
+                    title = "Doco"
                     description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
                     ventureLink = "/"
-                    />
+                    /> */}
+{/* 
                     <VenturesCard
                     imgSrc = "/text.jpeg"
                     imgAlt = "I"

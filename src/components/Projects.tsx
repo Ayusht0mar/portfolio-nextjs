@@ -28,7 +28,7 @@ const Projects = () => {
                         <ScrollArea className="overflow-x-visible">
                             <div className="flex space-x-4">
                                 <ProjectCard
-                                    imgSrc = "/inconcisecover.jpg"
+                                    imgSrc = "/covers/inconcisecover.png"
                                     imgAlt = "Inconcise"
                                     title = "Inconcise"
                                     description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
