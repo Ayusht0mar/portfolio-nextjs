@@ -6,8 +6,8 @@ const Ventures = () => {
     return ( 
         <div className="flex flex-col gap-6">
             <SectionHeading
-                label="The ventures."
-                subLabel="Take a look at what i do on side "
+                label="On The Side."
+                subLabel="I love to improve my craft and ship products on the side. "
             />
             <ScrollArea>
                 <div className="flex gap-4">
