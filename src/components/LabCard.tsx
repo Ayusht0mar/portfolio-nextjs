@@ -1,16 +1,11 @@
 import {
     Card,
-    CardContent,
-    CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
   } from "@/components/ui/card"
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { IoCodeSlashOutline } from "react-icons/io5";
-import { CiGlobe } from "react-icons/ci";
 
   
 interface  ProjectCardProps {
@@ -28,16 +23,16 @@ const LabCard: React.FC<ProjectCardProps> = ({
     return ( 
         <div>
             <Link href={href}>
-                <Card className="w-[80vw] md:w-[420px] p-4 flex flex-col gap-2">
+                <Card className="w-[80vw] max-w-fit p-2 flex flex-col gap-2">
                     <Image
                         src={imgSrc}
                         alt={imgAlt}
                         width="388"
                         height="100"
-                        className="m-auto rounded"
+                        className="m-auto rounded-lg"
                     />
                     <CardHeader>
-                        <CardTitle>{title}</CardTitle>
+                        <CardTitle  className="pl-1 font-normal text-lg">{title}</CardTitle>
                     </CardHeader>
                 </Card>
             </Link>
