@@ -13,7 +13,7 @@ const Experience = () => {
         >
             <SectionHeading
                 label="Experience."
-                subLabel="Places I have worked at."
+                subLabel="Places I got to work at."
             />
             <Card className="p-6 overflow-hidden">
                 <Tabs defaultValue="Satyukt" className="flex flex-col md:flex-row gap-6">
