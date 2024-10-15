@@ -14,8 +14,8 @@ const Projects = () => {
             "
         >
             <SectionHeading
-                label="The projects."
-                subLabel="Take a look at what i have made soo far"
+                label="The Projects."
+                subLabel="Check out the products I work on"
             />
             <Tabs defaultValue="all">
                 <TabsList>
@@ -45,6 +45,19 @@ const Projects = () => {
                                     imgAlt = "Clarity"
                                     title = "Clarity"
                                     description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
+                                    githubLink = "/"
+                                    projectLink = "/"
+                                    tech1="/logos/css.svg"
+                                    tech2="/logos/html.svg"
+                                    tech3="/logos/js.svg"
+                                    tech4="/logos/react.svg"
+                                    tech5="/logos/nextauth.svg"
+                                    />
+                                <ProjectCard
+                                    imgSrc = "/portfolio1cover.jpg"
+                                    imgAlt = "Shortcuts"
+                                    title = "Shortcuts"
+                                    description = "A Job Portal app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
                                     githubLink = "/"
                                     projectLink = "/"
                                     tech1="/logos/css.svg"
