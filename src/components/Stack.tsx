@@ -12,14 +12,34 @@ const Stack = () => {
             <ScrollArea>
                 <div className="flex gap-4">
                     <StackCard
-                        imgSrc="/logos/js.svg"
-                        imgAlt="Javascript"
-                        title="JavaScript"
+                        imgSrc="/logos/nextjs.png"
+                        imgAlt="NextJs"
+                        title="NextJs"
+                    />
+                    <StackCard
+                        imgSrc="/logos/react.svg"
+                        imgAlt="React"
+                        title="React"
+                    />
+                    <StackCard
+                        imgSrc="/logos/nextauth.svg"
+                        imgAlt="NextAuth"
+                        title="NextAuth"
+                    />
+                    <StackCard
+                        imgSrc="/logos/docker.svg"
+                        imgAlt="Docker"
+                        title="Docker"
                     />
                     <StackCard
                         imgSrc="/logos/typescript.svg"
                         imgAlt="TypeScript"
                         title="TypeScript"
+                    />
+                    <StackCard
+                        imgSrc="/logos/js.svg"
+                        imgAlt="Javascript"
+                        title="JavaScript"
                     />
                     <StackCard
                         imgSrc="/logos/css.svg"
@@ -32,29 +52,14 @@ const Stack = () => {
                         title="HTML"
                     />
                     <StackCard
-                        imgSrc="/logos/react.svg"
-                        imgAlt="React"
-                        title="React"
-                    />
-                    <StackCard
                         imgSrc="/logos/node_js.svg"
                         imgAlt="Node.Js"
                         title="Node.Js"
                     />
                     <StackCard
-                        imgSrc="/logos/figma.svg"
-                        imgAlt="Figma"
-                        title="Figma"
-                    />
-                    <StackCard
-                        imgSrc="/logos/docker.svg"
-                        imgAlt="Docker"
-                        title="Docker"
-                    />
-                    <StackCard
-                        imgSrc="/logos/nextjs.png"
-                        imgAlt="NextJs"
-                        title="NextJs"
+                        imgSrc="/logos/github.svg"
+                        imgAlt="GitHub"
+                        title="GitHub"
                     />
                     <StackCard
                         imgSrc="/logos/vercel.png"
@@ -62,24 +67,19 @@ const Stack = () => {
                         title="Vercel"
                     />
                     <StackCard
-                        imgSrc="/logos/framer.png"
-                        imgAlt="Framer"
-                        title="Framer"
-                    />
-                    <StackCard
-                        imgSrc="/logos/nextauth.svg"
-                        imgAlt="NextAuth"
-                        title="NextAuth"
-                    />
-                    <StackCard
                         imgSrc="/logos/tailwindcss.svg"
                         imgAlt="Tailwind CSS"
                         title="Tailwind CSS"
                     />
                     <StackCard
-                        imgSrc="/logos/github.svg"
-                        imgAlt="GitHub"
-                        title="GitHub"
+                        imgSrc="/logos/figma.svg"
+                        imgAlt="Figma"
+                        title="Figma"
+                    />
+                    <StackCard
+                        imgSrc="/logos/framer.png"
+                        imgAlt="Framer"
+                        title="Framer"
                     />
                 </div>
                 <ScrollBar orientation="horizontal" className="hidden"/>
