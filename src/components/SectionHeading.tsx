@@ -14,7 +14,6 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
             className="
                 flex
                 flex-col
-                md:flex-row
                 text-2xl
                 font-medium
                 gap-2
@@ -23,6 +22,7 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
             <div
                 className="
                     text-primary-black
+                    font-semibold
                 "
             >
                 {label}
@@ -31,7 +31,7 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
                 className="
                     text-muted
                     text-base
-                    md:text-2xl
+                    md:text-xl
                 "
             >
                 {subLabel}
