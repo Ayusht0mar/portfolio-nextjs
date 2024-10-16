@@ -12,17 +12,17 @@ const HeroArea = () => {
             <div className="flex flex-col h-full justify-center gap-6">
                 <div className="flex flex-col gap-2">
                     <h1 className="text-3xl md:text-5xl text-muted leading-normal font-bold ">
-                        Hello, I am <b className="text-accent">Ayush!</b>
+                        Hello, I am <b className="text-accent leading-normal">Ayush!</b>
                         <br/>
-                        I am a <b className="text-accent">Web Developer</b>
+                        I am a <b className="text-accent leading-normal">Web Developer</b>
                         <br/>
-                        and <b className="text-accent">Product Designer.</b>
+                        and <b className="text-accent leading-normal">Product Designer.</b>
                     </h1>
                     <p className="max-w-[440px] text-base md:text-xl text-muted">
                         I design and code things on the internet blending creativity and technical expertise to make the users experience better.
                     </p>
                     <p className="text-base md:text-xl text-muted">
-                        Currently @ <a href="https://satyukt.com/"><b>Satyukt</b></a> 
+                        Previously @ <a href="https://satyukt.com/"><b>Satyukt</b></a> 
                         {/* <br /> */}
                         {/* Previously @ <a href="https://storyflow.so/"><b>Storyflow</b></a> */}
                     </p>
