@@ -31,7 +31,7 @@ const VenturesCard: React.FC<VenturesCardProps> = ({
 }) => {
     return ( 
         <div>
-            <Card className="w-full max-w-[480px] p-4 flex flex-col gap-6 ">
+            <Card className="w-full h-full max-w-[480px] p-4 grid grid-cols-1 gap-4 ">
                 <Image
                     src={imgSrc}
                     alt={imgAlt}
