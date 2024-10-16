@@ -134,6 +134,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                     </ul>
                     <div className="flex gap-2">
                         <Link
+                            target="_blank"
                             href={githubLink}>
                             <IoCodeSlashOutline
                             size="32"
@@ -147,6 +148,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                             />
                         </Link>
                         <Link
+                            target="_blank"
                             href={projectLink}>
                             <CiGlobe 
                             size="32"
