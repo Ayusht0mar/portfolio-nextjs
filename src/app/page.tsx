@@ -12,7 +12,7 @@ export default function Home() {
       <div className="px-[2vw] md:px-[5vw]">
         <HeroArea />
       </div>
-        <div className="flex flex-col gap-20 pt-[12vh] mx-[5vw] overflow-visible pb-6" id="projects">
+        <div className="flex flex-col gap-20 pt-[12vh] overflow-visible pb-6" id="projects">
           <Projects />
           <Experience/>
           <Ventures/>
