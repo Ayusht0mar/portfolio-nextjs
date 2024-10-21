@@ -15,7 +15,7 @@ const Experience = () => {
                 label="Experience."
                 subLabel="Places I got to work at."
             />
-            <Card className="p-6 overflow-hidden">
+            <Card className="p-6 overflow-hidden mx-[5vw]">
                 <Tabs defaultValue="Satyukt" className="flex flex-col md:flex-row gap-6">
                     <TabsList className="no-scrollbar flex justify-start md:flex-col overflow-y-scroll md:overflow-y-clip">
                         <TabsTrigger value="Satyukt" className="bg-white w-full text-base">Satyukt</TabsTrigger>
