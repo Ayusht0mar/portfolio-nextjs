@@ -11,6 +11,8 @@ const Ventures = () => {
             />
             <ScrollArea>
                 <div className="flex gap-4">
+                    <div className="md:w-[4vw]">
+                    </div>
                     <VenturesCard
                     imgSrc = "/covers/inconcisecover.png"
                     imgAlt = "I"
@@ -18,6 +20,20 @@ const Ventures = () => {
                     description = "A library that helps you to write code faster by providing boilerplates and components by which you can focus on working on the core functionalities of your website."
                     ventureLink = "https://www.inconcise.in/"
                     />
+                    {/* <VenturesCard
+                        imgSrc = "/covers/inconcisecover.png"
+                        imgAlt = "Clarity"
+                        title = "Clarity"
+                        description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
+                        ventureLink = "https://www.clarity.inconcise.in/"
+                    /> 
+                    <VenturesCard
+                        imgSrc = "/covers/inconcisecover.png"
+                        imgAlt = "Clarity"
+                        title = "Shortcuts"
+                        description = "A Productivity app making notes making, documentation etc. all at one place with no a smooth exprinece hehe"
+                        ventureLink = "https://www.shortcuts.ayushtomar.in/"
+                    />  */}
                     {/* <VenturesCard
                     imgSrc = "/dococover.png"
                     imgAlt = "I"
