@@ -10,7 +10,7 @@ const ContactCard = () => {
     const d = new Date();
     let year = d.getFullYear();
     return ( 
-        <div>
+        <div className="mx-[5vw]">
             <Card className="justify-center m-auto pt-20 pb-10 mb-5">
             <CardHeader className="text-center pb-5">
                     <CardTitle className="text-4xl">Lets start a project together.</CardTitle>
