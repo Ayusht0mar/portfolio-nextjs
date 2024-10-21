@@ -11,6 +11,8 @@ const Stack = () => {
             />
             <ScrollArea>
                 <div className="flex gap-4">
+                    <div className="md:w-[4vw]">
+                    </div>
                     <StackCard
                         imgSrc="/logos/nextjs.png"
                         imgAlt="NextJs"

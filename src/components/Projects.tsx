@@ -18,7 +18,7 @@ const Projects = () => {
                 subLabel="Check out the products I work on"
             />
             <Tabs defaultValue="all">
-                <TabsList>
+                <TabsList className="mx-[5vw]">
                     <TabsTrigger value="all">All</TabsTrigger>
                     <TabsTrigger value="webDevelopment">Web Development</TabsTrigger>
                     {/* <TabsTrigger value="appDevelopment">App Development</TabsTrigger> */}
@@ -27,6 +27,8 @@ const Projects = () => {
                     <TabsContent value="all">
                         <ScrollArea className="overflow-x-visible">
                             <div className="flex space-x-4">
+                                <div className="md:w-[4vw]">
+                                </div>
                                 <ProjectCard
                                     imgSrc = "/covers/inconcisecover.png"
                                     imgAlt = "Inconcise"
