@@ -17,6 +17,7 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
                 text-2xl
                 font-medium
                 gap-2
+                mx-[5vw]
             "
         >
             <div
