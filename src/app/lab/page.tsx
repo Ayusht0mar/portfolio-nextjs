@@ -8,8 +8,8 @@ const LabPage = () => {
                 <LabCard
                     imgSrc="/inconcisecover.jpg"
                     imgAlt = "Inconcise"
-                    title = "Inconcise"
-                    href = "/"
+                    title = "Popover Menu"
+                    href = "/lab/popover-menu"
                 />
                 <LabCard
                     imgSrc="/inconcisecover.jpg"
