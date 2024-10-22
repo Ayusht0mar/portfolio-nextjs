@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <main>
       <div className="px-[2vw] md:px-[5vw]">
-        <HeroArea />
+        <HeroArea/>
       </div>
         <div className="flex flex-col gap-20 pt-[12vh] overflow-visible pb-6" id="projects">
-          <Projects />
+          <Projects/>
           <Experience/>
           <Ventures/>
           <Stack/>
