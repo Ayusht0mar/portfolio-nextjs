@@ -7,7 +7,7 @@ import { Card } from "./DargCard";
 const HeroArea = () => {
     return ( 
         <div
-            className="h-fit md:h-[80vh] justify-between px-6 py-16 md:py-0"
+            className="h-[80vh] justify-between px-6 py-0"
         >
             <div className="flex flex-col h-full justify-center gap-6">
                 <div className="flex flex-col gap-2">
@@ -31,6 +31,8 @@ const HeroArea = () => {
                 <div 
                     className="
                         flex
+                        flex-col
+                        md:flex-row
                         gap-4
                     "
                 >
