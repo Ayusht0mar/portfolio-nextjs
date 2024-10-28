@@ -11,15 +11,16 @@ const HeroArea = () => {
         >
             <div className="flex flex-col h-full justify-center gap-6">
                 <div className="flex flex-col gap-2">
-                    <h1 className="text-3xl md:text-5xl text-muted leading-normal font-bold ">
+                    <h1 className="text-3xl md:text-5xl font-bold text-primary">Hey, I am Ayush</h1>
+                    {/* <h1 className="text-3xl md:text-5xl text-muted leading-normal font-bold ">
                         Hello, I am <b className="text-accent leading-normal">Ayush!</b>
                         <br/>
                         I am a <b className="text-accent leading-normal">Web Developer</b>
                         <br/>
                         and <b className="text-accent leading-normal">Product Designer.</b>
-                    </h1>
-                    <p className="max-w-[440px] text-base md:text-xl text-muted">
-                        I design and code things on the internet blending creativity and technical expertise to make the users experience better.
+                    </h1> */}
+                    <p className="max-w-[440px] mt-2 text-base md:text-xl text-muted">
+                        A Web Developer and Designer blending technical expertise and creativity to make the internet experience better.
                     </p>
                     <p className="text-base md:text-xl text-muted">
                         Previously @ <a href="https://satyukt.com/"><b>Satyukt</b></a> 
@@ -36,7 +37,7 @@ const HeroArea = () => {
                     <Button>
                         <Link
                             href="#projects"
-                            className="flex items-center gap-2 text-base"
+                            className="flex items-center gap-2 text-lg"
                         >
                             See my work
                             <TiChevronRight 
@@ -50,6 +51,7 @@ const HeroArea = () => {
                     >
                         <Link
                             href="https://read.cv/ayushtomar"
+                            className="text-lg"
                         >
                             View resume
                         </Link>
@@ -57,12 +59,12 @@ const HeroArea = () => {
                 </div>
             </div>
             <Card
-            src="https://images.unsplash.com/photo-1576174464184-fb78fe882bfd?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="/emojis/hero-img.png"
             alt="Example image"
-            rotate="12deg"
-            top="25%"
-            left="60%"
-            className="w-24 md:w-60 hidden md:block"
+            rotate="6deg"
+            top="20%"
+            left="65%"
+            className="w-24 md:w-64 hidden md:block"
             />
         </div>
      );
