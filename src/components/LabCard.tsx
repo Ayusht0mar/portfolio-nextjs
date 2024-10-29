@@ -10,13 +10,11 @@ import React from "react";
   
 interface  ProjectCardProps {
     imgSrc: string;
-    imgAlt: string;
     title: string;
     href: string;
 }
 const LabCard: React.FC<ProjectCardProps> = ({
     imgSrc,
-    imgAlt,
     title,
     href
 }) => {
@@ -26,7 +24,7 @@ const LabCard: React.FC<ProjectCardProps> = ({
                 <Card className="w-[80vw] max-w-fit p-2 flex flex-col gap-2">
                     <Image
                         src={imgSrc}
-                        alt={imgAlt}
+                        alt={title}
                         width="388"
                         height="100"
                         className="m-auto rounded-lg"
