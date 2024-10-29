@@ -7,25 +7,21 @@ const LabPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-fit m-auto mt-6">
                 <LabCard
                     imgSrc="/inconcisecover.jpg"
-                    imgAlt = "Inconcise"
-                    title = "Popover Menu"
-                    href = "/lab/popover-menu"
+                    title = "Animated Grid"
+                    href = "/lab/animated-grid"
                 />
                 <LabCard
                     imgSrc="/inconcisecover.jpg"
-                    imgAlt = "Inconcise"
                     title = "Inconcise"
                     href = "/"
                 />
                 <LabCard
                     imgSrc="/inconcisecover.jpg"
-                    imgAlt = "Inconcise"
                     title = "Inconcise"
                     href = "/"
                 />
                 <LabCard
                     imgSrc="/inconcisecover.jpg"
-                    imgAlt = "Inconcise"
                     title = "Inconcise"
                     href = "/"
                 />
