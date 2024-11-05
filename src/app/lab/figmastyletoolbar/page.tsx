@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FaArrowLeft } from "react-icons/fa6";
 import CodeViewer from "@/components/lab/CodeViewer";
-import FigmaStyleToolbar from "../../../../public/lab/figmastyletoolbar/page";
+import FigmaStyleToolbar from "@/components/lab/FigmaStyleToolbar";
 
 
 const Popover = () => {
