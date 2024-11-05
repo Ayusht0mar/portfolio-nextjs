@@ -12,8 +12,8 @@ const LabPage = () => {
                 />
                 <LabCard
                     imgSrc="/inconcisecover.jpg"
-                    title = "Inconcise"
-                    href = "/"
+                    title = "Figma Style Toolbar"
+                    href = "/lab/figmastyletoolbar"
                 />
                 <LabCard
                     imgSrc="/inconcisecover.jpg"
