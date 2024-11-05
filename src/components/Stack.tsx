@@ -83,6 +83,8 @@ const Stack = () => {
                         imgAlt="Framer"
                         title="Framer"
                     />
+                    <div className="md:w-[4vw]">
+                    </div>
                 </div>
                 <ScrollBar orientation="horizontal" className="hidden"/>
             </ScrollArea>
