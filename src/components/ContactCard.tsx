@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { FaGithub, FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
+import { SiGitbook } from "react-icons/si";
 import { PiCopyright } from "react-icons/pi";
 import CopyToClipboardComponent from "./CopyToClipboard";
 
@@ -59,6 +60,11 @@ const ContactCard = () => {
                         href="https://twitter.com/justayushtomar"
                     >
                         <FaXTwitter size={24}/>
+                    </Link>
+                    <Link
+                        href="https://ayushtomar.gitbook.io/notes"
+                    >
+                        <SiGitbook size={24}/>
                     </Link>
                 </div>
                 <CardContent 
